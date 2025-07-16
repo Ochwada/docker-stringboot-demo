@@ -48,6 +48,16 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<mainClass>package com.ochwada.dockerstringbootdemo.DockerStringbootDemoApplication</mainClass> <!-- Replace with your real main class -->
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 
