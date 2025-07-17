@@ -20,6 +20,6 @@ public class HelloController {
     // http://localhost:8080/hello
     @GetMapping("/hello")
     public String hello(){
-        return "Hello World, from Dockerized Spring Boot !";
+        return "Hello World, from Dockerized Spring Boot and Ochwada!";
     }
 }
